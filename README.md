@@ -23,8 +23,8 @@ Step 6 : Check if the policy has converged by comparing the previous policy old_
 Step 7 : Return the final state-values V and the optimal policy pi.
 
 ## POLICY IMPROVEMENT FUNCTION
-#### Name : Thiyagarajan A
-#### Register Number : 212222240110
+#### Name : SHRIRAM S
+#### Register Number : 212222240098
 ```python
 def policy_improvement(V, P, gamma=1.0):
     Q = np.zeros((len(P), len(P[0])), dtype=np.float64)
